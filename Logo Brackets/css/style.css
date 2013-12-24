@@ -1,0 +1,141 @@
+/* 
+Author: @mrjopino
+Name: Logo Brackets
+Description: Logo Brackets Adobe Puro CSS 
+*/
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titan+One);
+
+body{
+  background: #1b1e24;
+  background-image:-webkit-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-moz-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+  background-image:-o-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-ms-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:linear-gradient(to left,#1b1e24,#1b1e24 50%,#1b1e24);
+  font-family: helvetica, arial;
+  text-align: center;
+  margin:0;
+  padding:0;
+  padding-top: 40px;
+}
+
+p{
+  font-family:'Titan One', cursive;
+  font-size:4em;
+  text-align:center;
+  color: #2c90c6;
+  margin: 2% auto;
+  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -0px 2px, rgba(0,0,0,0.8) 0 30px 25px; 
+}
+
+.brackets {
+  margin: 40px auto;
+	position: relative;
+	box-sizing: border-box;
+	width: 195px;
+	height: 190px;
+	background: #25a5de;
+	border-radius: 40px;
+	overflow: hidden;
+	z-index: -1;
+	background: #0173bd;
+	background: -moz-linear-gradient(top, #29abe2 43%, #0173bd 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(43%,#29abe2), color-stop(100%,#0173bd)); 
+	background: -webkit-linear-gradient(top, #29abe2 43%,#0173bd 100%);
+	background: -o-linear-gradient(top, #29abe2 43%,#0173bd 100%);
+	background: -ms-linear-gradient(top, #29abe2 43%,#0173bd 100%); 
+	background: linear-gradient(to bottom, #29abe2 43%, #0173bd 100%);
+  box-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -0px 2px, rgba(0,0,0,0.8) 0 30px 25px;
+}
+
+.brackets:after {
+	position: absolute;
+	content: " ";
+	top: 24px;
+	left: 24px;
+	right: 24px;
+	bottom: 24px;
+	background: #fff;
+	border-radius: 20px;
+	border: 15px solid #fff;
+	-webkit-box-shadow: inset 0px 0px 0 29px #4d4d4d;
+	-moz-box-shadow: inset 0px 0px 0 29px #4d4d4d;
+	box-shadow: inset 0px 0px 0 25px #4d4d4d;
+	z-index: 1;
+}
+
+.brackets:before {
+	position: absolute;
+	content: " ";
+	top: 30px;
+	bottom: 30px;
+	left: 50%;
+	width: 16px;
+	margin: 0 0 0 -8px;
+	background: #fff;
+	z-index: 2;
+}
+
+/* My Copyright */
+.flow boton {
+  border: none;
+  background: hsl(192, 15%, 84%); 
+  border-radius: 4px;
+  outline: none;
+  padding: 7px 10px;
+  color: #fff;
+  font-size: 12px;
+  box-shadow: 0 0 15px #000;
+}
+.flow boton:hover {
+  background: hsl(204, 8%, 76%);
+  transition: background .7s;
+}
+.flow boton:active {
+  background: hsl(204, 8%, 66%);
+}
+.flow .copyright {
+  border: none; 
+  background: hsl(6, 78%, 57%);
+}
+.flow .copyright:hover {
+  background: #7db9e8
+}
+.flow .copyright:active {
+  background: hsl(6, 64%, 36%)
+}
+
+
+/* Footer developed by @mrjopino */
+.footer {
+  display: block;
+  max-width: 400px;
+  font-family: helvetica, arial sans-serif;
+  text-align: center;
+  padding: 0;
+  font-size: 0.8em;
+  color: #888888;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+}
+.footer p a,
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.footer p a:hover,
+.footer a:hover,
+.footer p a:active,
+.footer a:active {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+footer {
+  max-width: 175px;
+  margin: 0 auto;
+  display: block;
+  padding: 2em;
+  width: 100%;
+}

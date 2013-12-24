@@ -1,0 +1,60 @@
+/* Logo Ola CSS by @mrjopino */
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+html {
+  background: #1b1e24;
+}
+
+div {
+  width: 140px;
+  height: 140px;
+  background: #344A5E;
+  border: 20px solid #2b1e32;
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+  box-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -0px 2px, rgba(0,0,0,0.8) 0 30px 25px;
+}
+
+div, div:after {
+  border-radius: 50%;
+}
+
+
+div:before {
+  width: 138px;
+  height: 59px;
+  background: #2c90c6;
+  top: 83px;
+  left: 2px;
+  transform: rotate(-1deg);
+}
+
+div:before, div:after {
+  content: '';
+  position: absolute;
+}
+
+div:after {
+  width: 112px;
+  height: 112px;
+  background: #344A5E;
+  top: -32px;
+  left: 81px;
+  box-shadow: -13px 25px 0 9px #2c90c6, -167px 17px  0 -4px #344A5E,
+  -147px 62px 0 -10px #C13C2B, -53px 43px 0 8px #C13C2B;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family:'Pacifico', cursive;
+  font-size: 50px;
+  margin-top: -35px;
+  
+}
